@@ -36,3 +36,7 @@ git diff
  
 # Вернутся к актуальной версии
 git checkout master
+
+# слияние веток
+
+git merge  text_formating
