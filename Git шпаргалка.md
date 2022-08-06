@@ -22,4 +22,12 @@ git --version
 # Журнал изменений
 git log
 
+# Показать изменения
+
+git diff
+
+# Представлене
+ git config --global user.name 'Имя'
+
+ git config --global user.email 'e-mail'
 
