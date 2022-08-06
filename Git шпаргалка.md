@@ -31,3 +31,8 @@ git diff
 
  git config --global user.email 'e-mail'
 
+# Вернутся к прошлым версиям 
+ git checkout имя
+ 
+# Вернутся к актуальной версии
+git checkout master
