@@ -21,3 +21,5 @@ git --version
 
 # Журнал изменений
 git log
+
+
