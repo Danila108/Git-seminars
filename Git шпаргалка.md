@@ -40,3 +40,7 @@ git checkout master
 # слияние веток
 
 git merge  text_formating
+
+# Вставка изображений
+  
+  ![снимок](Сни.png)
