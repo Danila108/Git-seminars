@@ -82,6 +82,7 @@ git merge  text_formating
 
 
 
+
 Создать новый репозиторий
 git init             # создать новый проект в текущей директории
 git init folder-name # создать новый проект в указанной директории
@@ -105,4 +106,4 @@ git diff --staged       # сравнить индекс и коммит с HEAD
 git diff master feature # посмотреть что сделано в ветке feature по сравнению с веткой master
 git diff --name-only master feature # посмотреть что сделано в ветке feature по сравнению с веткой master, показать только имена файлов
 git diff master...feature # посмотреть что сделано в ветке feature с момента (коммита) расхождения с master
->>>>>>> ветка1
+
