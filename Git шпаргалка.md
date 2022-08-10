@@ -40,3 +40,16 @@ git checkout master
 # слияние веток
 
 git merge  text_formating
+
+Создать новый репозиторий
+git init             # создать новый проект в текущей директории
+git init folder-name # создать новый проект в указанной директории
+Клонирование репозитория
+# клонировать удаленный репозиторий в одноименную директорию
+git clone https://github.com/cyberspacedk/Git-commands.git    
+
+# клонировать удаленный репозиторий в директорию «FolderName»
+git clone https://github.com/cyberspacedk/Git-commands.git FolderName 
+
+# клонировать репозиторий в текущую директорию
+git clone https://github.com:nicothin/web-design.git .   
