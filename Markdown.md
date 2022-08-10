@@ -77,6 +77,36 @@ Markdown | не такой | красивый
 
 > Это очень длинная строка, но она будет правильно процитирована даже при размещении на нескольких строках. Продолжаем писать, чтобы эта строка не вмещалась на одной строке в любом окне. Кстати, в цитаты можно *вставлять* даже **Markdown**.
 
+
+
+
+
+
+
+
+
+
+Видео Youtube
+Ролики нельзя вставить напрямую, но можно вставить изображение со ссылкой на видео, например:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ID_ВИДЕОРОЛИКА_НА_YOUTUBE" target="_blank"><img src="http://img.youtube.com/vi/ID_ВИДЕОРОЛИКА_НА_YOUTUBE/0.jpg" 
+alt="ALT-ТЕКСТ ИЗОБРАЖЕНИЯ" width="240" height="180" border="10" /></a>
+На чистом Markdown, но без размеров изображения и рамки:
+[![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](http://img.youtube.com/vi/ID_ВИДЕОРОЛИКА_НА_YOUTUBE/0.jpg)](http://www.youtube.com/watch?v=ID_ВИДЕОРОЛИКА_НА_YOUTUBE)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Встроенный HTML
 Часто Markdown понимает чистый HTML.
 
@@ -103,9 +133,3 @@ ___
 
 Подчеркивания
 
-Видео Youtube
-Ролики нельзя вставить напрямую, но можно вставить изображение со ссылкой на видео, например:
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ID_ВИДЕОРОЛИКА_НА_YOUTUBE" target="_blank"><img src="http://img.youtube.com/vi/ID_ВИДЕОРОЛИКА_НА_YOUTUBE/0.jpg" 
-alt="ALT-ТЕКСТ ИЗОБРАЖЕНИЯ" width="240" height="180" border="10" /></a>
-На чистом Markdown, но без размеров изображения и рамки:
-[![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](http://img.youtube.com/vi/ID_ВИДЕОРОЛИКА_НА_YOUTUBE/0.jpg)](http://www.youtube.com/watch?v=ID_ВИДЕОРОЛИКА_НА_YOUTUBE)
